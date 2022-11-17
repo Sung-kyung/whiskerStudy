@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8">
+		<title>3일차 학습</title>
+	</head>
+	<body>
+		<header>
+		<h1>사이트연습1</h1>
+			<nav>네비게이션 (메뉴 1)</nav>
+		</header>
+		<main>
+			<section>
+				<h2>대메뉴 1</h2> 
+				<article>
+					<h3>중메뉴 1</h3>
+					<div>
+						<h4>소메뉴 1</h4>
+						<p>어쩌구저쩌구1</p>
+						<p><strong>어쩌구</strong>저쩌구2</p>
+								
+						<span>인라인1</span>
+						<span>인라인2</span>
+					</div>
+				</article>
+				<article>
+					<h3>중메뉴 1</h3>
+					<ol>
+						<li>순서1</li>
+						<li>순서2</li>
+					</ol>
+					<ul>
+						<li>순서없음1</li>
+						<li>순서없음2</li>
+					</ul>
+				</article>
+			</section>
+			<section>
+				<h2>대메뉴 2</h2> 
+
+				<table>
+					<caption>테이블에 대한 설명 (어떤 테이블인지 설명을 써주어야한다.)</caption>
+					<colgroup>
+					</colgroup>
+					<thead>
+						<tr>
+							<th colspan="2">칼럼1</th>
+							<th rowspan="2">칼럼2</th>
+						</tr>
+						<tr>
+							<th>2-1</th>
+							<th>2-2</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>내용1</td>
+							<td>내용2</td>
+							<td>내용2</td>
+						</tr>
+					</tbody>
+				</table>
+			</section>
+
+			<section>
+				<h2>이미지넣기</h2>
+				<img src="https://item.kakaocdn.net/do/a1866850b14ae47d0a2fd61f409dfc057154249a3890514a43687a85e6b6cc82" alt="이미지에 대한 설명(대체텍스트)">
+				<a href="https://namu.wiki/w/%EB%AA%BD%ED%82%A4%20D.%20%EB%A3%A8%ED%94%BC" title="루피 나무위키 링크" target="_parent">루피 나무위키 바로가기</a>
+			</section>
+			<section>
+				<h2>유튜브 아이프레임</h2>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/iXM99GTJWsk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</section>
+		</main>
+	</body>
+	<footer>
+		주소정보 <br> 
+		소유권명시(copyright)
+	</footer>
+</html>

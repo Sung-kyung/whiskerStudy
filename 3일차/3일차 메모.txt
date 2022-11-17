@@ -1,0 +1,29 @@
+html에 언어를 선언한다 lang=""
+
+브라우저에 어떤 언어를 쓸건지 선언을 해야한다
+=> utf-8 / 문서에도 선언을 해서 맞춰주어야함
+
+<기본골격>
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		txt
+	</body>
+</html>
+
+header 영역 => 사이트 네비게이션, 최상단의 역할을 한다.
+main => content
+section > article(내용) section 안에 article을 많이쓴다.
+
+h1 => logo 
+h2 => 가장 중요한 대메뉴 
+
+
+영역을 나누는 기본 태그들은 기본적으로 display:block;이다.
+span 같은 inline 요소들 => 나는 text요소다 그래서 옆으로 붙는것.
+
+rowspan , colspan 계산 쉽게하는 법 
+=> 가장 많은 가로의 갯수가 몇개인지 확인한다.
