@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8" />
+	<title>4일차</title>
+</head>
+
+<body>
+	<ul>
+		<li>
+			<label for="tel">전화번호:</label>
+			<input id="tel" type="tel" placeholder="test" disabled />
+		</li>
+		<!--chk-->
+		<li>
+			<label for="checkbox1">사과</label>
+			<input id="checkbox1" type="checkbox" name="checkbox" />
+			<label for="checkbox2">배</label>
+			<input id="checkbox2" type="checkbox" name="checkbox" />
+			<label for="checkbox3">수박</label>
+			<input id="checkbox3" type="checkbox" name="checkbox" />
+		</li>
+		<!--radio-->
+		<li>
+			<label for="radio1">사과</label>
+			<input id="radio1" type="radio" name="radio" />
+			<label for="radio2">배</label>
+			<input id="radio2" type="radio" name="radio" />
+			<label for="radio3">수박</label>
+			<input id="radio3" type="radio" name="radio" />
+		</li>
+		<!--number-->
+		<li>
+			<label for="radio1">사과</label>
+			<input id="radio1" type="number" name="radio" />
+		</li>
+		<!--range-->
+		<li>
+			<label for="range">사과</label>
+			<input id="range" type="range" name="range" min="0" max="100" />
+		</li>
+		<!--date-->
+		<li>
+			<label for="date">date</label>
+			<input id="date" type="date" name="date" />
+		</li>
+		<!--month-->
+		<li>
+			<label for="month">month</label>
+			<input id="month" type="month" name="month" />
+		</li>
+		<!--week-->
+		<li>
+			<label for="week">week</label>
+			<input id="week" type="week" name="week" />
+		</li>
+		<!--time-->
+		<li>
+			<label for="time">time</label>
+			<input id="time" type="time" name="time" />
+		</li>
+		<!--datetime-->
+		<li>
+			<label for="datetime">datetime</label>
+			<input id="datetime" type="datetime-local" name="datetime" />
+		</li>
+		<!--submit-->
+		<li>
+			<label for="submit">submit</label>
+			<input id="submit" type="submit" name="submit" />
+		</li>
+		<!--reset-->
+		<li>
+			<form>
+				<label for="tel">이름</label>
+				<input id="tel" type="text" />
+				<label for="reset">reset</label>
+				<input id="reset" type="reset" name="reset" />
+				<button type="reset">reset</button>
+			</form>
+
+		</li>
+
+		<li>
+			<label for="button">이름</label>
+			<input id="button" type="button" value="sdfsdf" />
+		</li>
+		<li>
+			<label for="file">이름</label>
+			<input id="file" type="file" value="file" />
+		</li>
+		<!--hidden-->
+		<li>
+			<label for="hidden">이름</label>
+			<input id="hidden" type="hidden" value="hidden" />
+		</li>
+
+		<li>
+			<label for="select">셀렉트 박스</label>
+			<select id="select">
+				<option>1</option>
+				<option selected="">2</option>
+				<option>3</option>
+			</select>
+		</li>
+		
+		<li>
+			<label for="select">textarea:</label>
+			<textarea></textarea>
+		</li>
+		<!--button-->
+		<li>
+			<button type="button">button</button>
+		</li>
+	</ul>
+</body>
+
+
+</html>

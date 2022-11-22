@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<title>자기소개서</title>
+</head>
+<body>
+	<header>
+		<h1><img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FccAhTu%2FbtqESgYY886%2FKuBr3o16GsaQB5nj4k5nqK%2Fimg.png" alt="자기소개서 로고 바이블로그"></h1>
+		<nav>
+			
+		</nav>
+	</header>
+	<main>
+		<section>
+			<h2>유성경을 소개합니다</h2>
+			<article>
+				<h3>기본 정보</h3>
+				<ul>
+					<li>이름 : 유성경</li>
+					<li>생년월일 : 1996.01.15</li>
+					<li>성별 : 여</li>
+					<li>엠비티아이 : ENFJ</li>
+				</ul>
+				
+				<ol>
+					<li>중학교까지는 전라남도 광양에 살았습니다만</li>
+					<li>고등학교는 순천이구요</li>
+					<li>대학교는 대전 한남대학교로 오게되었습니다</li>
+					<li>현재는 대전 탄방동에 살아요</li>
+				</ol>
+			</article>
+		</section>
+		<section>
+			<article>
+				<h3>TMI(too much infomation~!)</h3>
+				<div>
+					<h4>취미</h4>
+					<p>아이돌 덕질!!!</p>
+					<span>엔시티 할미가 사랑혀.</span>
+					<span>sm엔터 아이돌 내리사랑중...구오빠 동방신기..★</span>
+				</div>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/xQ635vE2RQI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<div>
+					<h4>종교</h4>
+					<p>기독girl</p>
+				</div>
+			</article>
+		</section>
+		<section>
+			<table>
+				<caption>이 테이블은 유성경이라는 사람의 못먹는것, 잘먹는것에 대한 정보를 담은 테이블입니다.</caption>
+				<colgroup></colgroup>
+				<thead>
+					<tr>
+						<th colspan="2">못먹는것</th>
+						<th rowspan="2">잘먹는것</th>
+						<th></th>
+						<th></th>
+					</tr>
+					<tr>
+						<th></th>
+						<th></th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>사과</td>
+						<td>굴</td>
+						<td>고기</td>
+
+					</tr>
+				</tbody>
+			</table>
+		</section>
+		<section>
+			<p>옛날옛적에 하던 블로그입니다</p>
+			<a href="https://yoo960115.tistory.com/" title="바이블입니둥 블로그" target="_blank"></a>
+		</section>
+	</main>
+	<footer>
+		<div>
+			<p>대전광역시 서구 탄방동 나머지는 비밀입니다</p>
+			<p>010-1234-5678</p>
+		</div>
+		<p>Copyright © 2022 by sungkyung.Yoo All Rights Reserved.</p>
+	</footer>
+</body>
