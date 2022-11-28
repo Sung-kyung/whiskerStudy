@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8">
+		<title>회원가입 form</title>
+	</head>
+	<body>
+		<h2>회원가입 입력 폼</h2>
+		<form>
+			<ul>
+				<li>
+					<label for="ID">아이디</label>
+					<input id="ID" type="text" placeholder="아이디를 입력해주세요.">
+				</li>
+				<li>
+					<label for="PW">비밀번호</label>
+					<input id="PW" type="password" placeholder="비밀번호를 입력해주세요.">
+				</li>
+				<li>
+					<label for="name">이름</label>
+					<input id="name" type="text" placeholder="이름을 입력해주세요.">
+				</li>
+				<li>
+					<label for="birth">생년월일</label>
+					<input id="birth" type="date">
+				</li>
+				<li>
+					<label for="radio01">남자</label>
+					<input id="radio01" type="radio" name="radio">
+					<label for="radio02">여자</label>
+					<input id="radio02" type="radio" name="radio" checked="">
+				</li>
+				<li>
+					<label for="address">주소</label>
+					<input id="address" type="text">
+				</li>
+				<li>
+					<label for="tel">전화번호</label>
+					<input id="tel" type="tel">
+				</li>
+				<li>
+					<label for="email">이메일</label>
+					<input id="email" type="email">
+				</li>
+				<li>
+					<label for="age">나이</label>
+					<input id="age" type="number" value="1"><span>살</span>
+				</li>
+				<li>
+					<label for="introduce">자기소개</label>
+					<textarea id="introduce" rows="3" cols="50">안녕하세요 저는 유성경이라고합니다. 저는 1996년 1월 15일 생입니다. 빠른년생이지요. 현재 거주지는 대전광역시 서구 탄방동에 살고있습니다. 대전에 온지는 약 8년이 되었습니다. 현재 직장은 충남대학교 정문 앞 누드캐슬 6층 휘스커에 다니고 있습니다. </textarea>
+				</li>
+				
+				<li>
+					<strong>좋아하는 과일</strong>
+					<label for="check01">사과</label>
+					<input id="check01" type="checkbox" name="checkbox">
+					<label for="check02">딸기</label>
+					<input id="check02" type="checkbox" name="checkbox" checked="">
+					<label for="check03">포도</label>
+					<input id="check03" type="checkbox" name="checkbox">
+					<label for="check04">샤인머스켓</label>
+					<input id="check04" type="checkbox" name="checkbox" checked="">
+					<label for="check05">감</label>
+					<input id="check05" type="checkbox" name="checkbox">
+					<label for="check06">배</label>
+					<input id="check06" type="checkbox" name="checkbox">
+					<label for="check07">블루베리</label>
+					<input id="check07" type="checkbox" name="checkbox" checked="">
+				</li>
+				<li>
+					<label for="submit">등록</label>
+					<input type="submit" id="submit">
+					<label for="reset">리셋</label>
+					<input type="reset" id="reset">
+				</li>
+			</ul>
+		</form>
+	</body>
+
+</html>
