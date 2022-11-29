@@ -1,0 +1,36 @@
+★★상위 스타일이 하위스타일에 상속 ★★
+폭포처럼 흐른다는 뜻을 가지고 있습니다.
+부모객체가 자식에게 상속하는것
+
+
+<css를 불러오는 방법>
+1. style 태그(잘 안씀 유지보수 힘드렁)
+2. link로 외부에서 불러온다
+3. css내에서 import로 (안좋음 권장 안함)
+4. 태그에 직접 style 선언
+
+<id와 class의 차이점>
+id = 고유값 (1. 골격을 구성할때(최상위 부모), 2. 데이터를 불러올때)
+class = 다중
+
+<style의 종류>
+display : 어떻게 보여주나 show/ hide
+overflow : 넘치냐 안넘치냐
+position: static(기본)/ relative(부모) / absolute(자식) / fixed(문서안에서 자유롭고싶어)/
+	top left right bottom으로 조절 
+	z-index (우선순위 클수록 우선순위가 높다)
+width: 넓이 px em rem % vh
+height: 높이 ,,
+margin: 외부여백 
+padding: 내부여백
+border: 라인
+background: image / color/ position /repeat / size
+font : font-size / font-weight / line-height / color
+우선순위 =>1. 스타일 안에 !important, 2. 위에서 아래로(절차지향) 3. 가까울수록 (부모)
+ 
+float 의 부모가 자식을 인식하려면 display:inline-block을 주면 먹지만 text요소이기때문에 라인하이트 생김
+2. overflow:hidden; 
+
+dom 자체에 가장 가까이있는 임폴턴트가 먼저먹는다
+
+
