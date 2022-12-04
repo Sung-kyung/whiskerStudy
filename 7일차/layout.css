@@ -1,0 +1,30 @@
+/* header */
+#header {display:block; position:relative; padding:0 20px; border-bottom:1px solid #333; text-align:center;}
+#header::after {content:''; display:block; clear:both;}
+#header .h-item01 {width:200px;height:60px; float:left; border:2px solid red;}
+#header #nav {position:absolute; top:0; left:25%; width:900px; min-width:1000px;}
+#header #nav ul {height:100%;}
+#header #nav ul::after {content:''; display:block; clear:both;}
+#header #nav ul li {float:left; width:33.3333%;}
+#header #nav ul li a {display:inline-block; width:100%; height:100%; line-height:60px; vertical-align:middle;}
+#header .site-map-btn {float:right;}
+
+/* main */
+#main {}
+#main #section-01 {}
+#main #section-01 .info {max-width:1400px; margin:0 auto; padding:40px 0; border:1px solid green; text-align:center;}
+#main #section-01 .info .info-title {font-weight:bold; font-size:3rem;}
+#main #section-02 {}
+#main #section-02 .quick {display:block; max-width:1400px; margin:0 auto; text-align:center;}
+#main #section-02 .quick::after {content:''; display:block; clear:both;}
+#main #section-02 .quick li {float:left; width:300px; height:300px; margin:0 20px; border:1px solid red; text-align:center;}
+#main #section-02 .quick li:nth-child(2){border:1px solid green;}
+#main #section-02 .quick li:nth-child(3){border:1px solid pink;}
+#main #section-02 .quick li:nth-child(4){border:1px solid blue;}
+#main #section-02 .quick li a {display:block; width:100%; height:100%;}
+
+/* footer */
+#footer {position:fixed; bottom:0; left:0; width:100%; padding:30px; background-color:#333; color:#fff;}
+#footer::after {content:''; display:block; clear:both;}
+#footer .foot-item {float:left;}
+#footer .logo {width:200px; margin-right:50px; border:1px solid red;}
