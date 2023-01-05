@@ -1,0 +1,31 @@
+html, body{height:100%;}
+
+#wrap {position:relative;min-height:100%:}
+
+#header {display:flex; width:100%; height:70px; border-bottom:2px solid #000; justify-content:space-between; align-items:center;}
+#header .navi-wrap {display:flex; align-items:center;}
+#header .navi-wrap nav {}
+#header .navi-wrap nav ul {display:flex;}
+#header .navi-wrap nav ul > li {padding:0 15px;}
+#header .navi-wrap #logo {padding:0 20px;}
+#header .navi-wrap .info-menu {display:flex;} 
+#header .navi-wrap .info-menu > li {padding:0 15px;}
+
+#main {display:flex; height:calc(100vh - 70px); align-items:center; justify-content:center;}
+#main #content {display:flex; width:1000px; height:600px;}
+#main #content .item-01 {flex:1; wdith:33.3333%;  padding-right:15px;}
+#main #content .item-01 a {display:block; height:100%; padding:15px; background-color:green;}
+#main #content .item-02 {display:flex; width:66.6666%; margin:-15px -15px -15px 0; flex-wrap:wrap;}
+#main #content .item-02 > li{width:50%; padding:15px;}
+#main #content .item-02 > li:nth-child(1) > a {background-color:pink;}
+#main #content .item-02 > li:nth-child(2) > a {background-color:gold;}
+#main #content .item-02 > li:nth-child(3) > a {background-color:#dfdfdf;}
+#main #content .item-02 > li:nth-child(4) > a {background-color:blue;}
+
+#main #content .item-02 > li:nth-child(1) {order:4;}
+#main #content .item-02 > li:nth-child(2) {order:3;}
+#main #content .item-02 > li:nth-child(3) {order:2;}
+#main #content .item-02 > li:nth-child(4) {order:1;}
+
+
+#main #content .item-02 > li > a {display:block; height:100%;}
