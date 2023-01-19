@@ -1,0 +1,14 @@
+'' == false
+
+'2' == 2 //true
+'2' === 2 //false 
+
+'ㅁㄴㄷㄱㄷ'.length == true
+''.length == false 
+0 == false // true
+
+if ('') {
+	//true
+} else {
+ // false
+}
